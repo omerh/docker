@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 
 # prerequists
-RUN apt-get update && apt-get install -y git build-essential zlib1g-dev libffi-dev libpq-dev libsqlite3-dev wget curl
+RUN apt-get update && apt-get install -y git build-essential libreadline-dev zlib1g-dev libffi-dev libpq-dev libsqlite3-dev wget curl
 
 # rbenv
 RUN cd /usr/local \
