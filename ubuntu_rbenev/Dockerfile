@@ -16,4 +16,4 @@ RUN /usr/local/rbenv/plugins/ruby-build/install.sh
 RUN echo 'eval "$(rbenv init -)"' >> /etc/profile \
   && echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
-#Now you have rbenv setup for install (rbenv install 2.1.0)
+#Now you have rbenv setup for install
