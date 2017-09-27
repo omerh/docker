@@ -1,0 +1,6 @@
+FROM python:2.7.14-alpine
+
+RUN apk update && \
+    apk add --virtual build-deps gcc python-dev musl-dev && \
+    apk add postgresql-dev
+
